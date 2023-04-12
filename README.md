@@ -16,7 +16,9 @@ Make the window smaller by clicking the lower right corner and dragging up and l
 
 ![image](https://user-images.githubusercontent.com/7516297/231586702-f3c84d91-446e-4257-9e7d-5de1814ceeb5.png)
 
-Note that the Button also resizes itself correctly, so this may be a problem with the Grid and not the Border.
+Note that the Button also resizes itself correctly, so this may be a problem with the Grid and not the Border. But when I replace the Border with a Button it works, so evidence seems to point to an issue with Border:
+
+![image](https://user-images.githubusercontent.com/7516297/231587796-98331078-168e-4f76-82cb-f3a5ff14b6c8.png)
 
 ## Workload list
 
