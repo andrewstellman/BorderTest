@@ -39,6 +39,25 @@ android                    33.0.26/7.0.100        VS 17.6.33417.168
 Use `dotnet workload search` to find additional workloads to install.
 ```
 
+# Can reproduce on Windows Intel
+
+The above screenshots were taken on Windows ARM. The following screenshot shows the problem also affects Widows Intel: 
+
+![image](https://user-images.githubusercontent.com/7516297/231588611-8ea7b8fb-a64f-41e9-a5c3-d5300ca54b49.png)
+
+```
+Installed Workload Id      Manifest Version       Installation Source
+---------------------------------------------------------------------
+maui-windows               7.0.81/7.0.100         VS 17.5.33530.505
+maui-maccatalyst           7.0.81/7.0.100         VS 17.5.33530.505
+maccatalyst                16.2.2035/7.0.100      VS 17.5.33530.505
+maui-ios                   7.0.81/7.0.100         VS 17.5.33530.505
+ios                        16.2.2035/7.0.100      VS 17.5.33530.505
+maui-android               7.0.81/7.0.100         VS 17.5.33530.505
+android                    33.0.46/7.0.100        VS 17.5.33530.505
+```
+
+
 ## Cannot reproduce on MAUI macOS
 
 When I run on MAUI macOS the page renders as expected:
