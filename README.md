@@ -18,4 +18,40 @@ Make the window smaller by clicking the lower right corner and dragging up and l
 
 Note that the Button also resizes itself correctly, so this may be a problem with the Grid and not the Border.
 
+## Workload list
+
+```
+C:\Users\andrewstellman\source\repos\BorderTest>dotnet workload list
+
+Installed Workload Id      Manifest Version       Installation Source
+---------------------------------------------------------------------
+runtimes-windows           7.0.3/7.0.100          VS 17.6.33417.168
+maui-windows               7.0.59/7.0.100         VS 17.6.33417.168
+maui-maccatalyst           7.0.59/7.0.100         VS 17.6.33417.168
+maccatalyst                16.2.1024/7.0.100      VS 17.6.33417.168
+maui-ios                   7.0.59/7.0.100         VS 17.6.33417.168
+ios                        16.2.1024/7.0.100      VS 17.6.33417.168
+maui-android               7.0.59/7.0.100         VS 17.6.33417.168
+android                    33.0.26/7.0.100        VS 17.6.33417.168
+
+Use `dotnet workload search` to find additional workloads to install.
+```
+
+## Cannot reproduce on MAUI macOS
+
+When I run on MAUI macOS the page renders as expected:
+
+<img width="962" alt="image" src="https://user-images.githubusercontent.com/7516297/231587193-7e677116-71b1-4838-bb64-3e26a8d02530.png">
+
+```
+andrewstellman@Andrews-MBP Projects % dotnet workload list
+
+Installed Workload Id      Manifest Version      Installation Source
+--------------------------------------------------------------------
+maui-maccatalyst           7.0.81/7.0.100        SDK 7.0.200        
+maui-ios                   7.0.81/7.0.100        SDK 7.0.200        
+maui-android               7.0.81/7.0.100        SDK 7.0.200        
+
+Use `dotnet workload search` to find additional workloads to install.
+```
 
